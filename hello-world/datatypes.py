@@ -90,3 +90,11 @@ student2 = {"Erick":14,"Victor":12,"Tina":26,"Chris":15}
 
 students.update(student2)
 print students
+
+'''
+Tupples Datatypes like const in other programming langs
+They are defined by normal round brackets
+(Only create them again but not rewritable)
+'''
+tup1 = ("Maths",23,"Dogs")
+print tup1[0:3]
