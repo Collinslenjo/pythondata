@@ -59,3 +59,34 @@ print min(numArray) #function
 
 shoppingList.append("Brocoli") #function
 print (shoppingList)
+
+print shoppingList.count("carrots") #function
+
+# Dictionaries Datatypes
+students = {"Erick":14,"Victor":12,"Tina":26,"Chris":15}
+print students["Victor"]
+#Updating the dicionary
+students["Victor"] = 13;
+print students["Victor"]
+#deleting
+del students["Victor"]
+print(students)
+
+'''
+Dictionary functions
+'''
+students = {"Steve":12,"Prof":16,"Edgar":14}
+students.clear() #clearing sunctions
+print students
+#del students
+#print students
+
+students = {"Steve":12,"Prof":16,"Edgar":14}
+print len(students) #function
+print students.keys() #function
+print students.values() #function
+
+student2 = {"Erick":14,"Victor":12,"Tina":26,"Chris":15}
+
+students.update(student2)
+print students
