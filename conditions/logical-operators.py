@@ -49,7 +49,3 @@ for i in range(0,5):
 	for a in range(0,5):
 		print(a)
 
-'''
-PRIME NUMBER GENERTAOR
-print the first 10 prime numbers 
-'''
