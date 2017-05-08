@@ -1,0 +1,3 @@
+'''
+Opening and Reading files
+'''
