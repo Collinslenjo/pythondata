@@ -62,4 +62,15 @@ Similar to map, filter function in Python3 returns a filter object or the iterat
 list_a = [1, 2, 3, 4, 5]
 filter_obj = filter(lambda x: x % 2 == 0, list_a) # filter object <filter at 0x4e45890>
 even_num = list(filter_obj) # Converts the filer obj to a list
-print(even_num) # Output: [2, 4
+print(even_num) # Output: [2, 4]
+
+'''
+Reduce function
+The function reduce(func, seq) continually applies the function func() to the sequence seq. It returns a single value. 
+'''
+reduce(lambda x,y: x+y, [47,11,42,13]) # will output 113
+# example 2
+f = lambda a,b: a if (a > b) else b
+reduce(f, [47,11,42,102,13]) # will output 102
+# example 3
+reduce(lambda x, y: x+y, range(1,101)) # will output 5050
